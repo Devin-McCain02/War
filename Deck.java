@@ -3,7 +3,7 @@ public class Deck {
 	
 	private LinkedList<Card> Cards = new LinkedList<Card>();
 	
-	private String[] symbols = {"Clubs","Diamonds","Heards","Spaids"};
+	private String[] symbols = {"Clubs","Diamonds","Hearts","Spades"};
 	private String[] values = {"2","3","4","5","6","7","8","9","10","Jack","Queen","King","Ace"};
 	
 	public Deck() {}
